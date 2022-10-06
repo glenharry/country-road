@@ -1,0 +1,11 @@
+.js-fadeIn {
+  transform: translateY(100px) translateZ(0);
+  transition-delay: 0.1s;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.inView {
+  opacity: 1;
+  transform: translateY(0px) translateZ(0);
+}
